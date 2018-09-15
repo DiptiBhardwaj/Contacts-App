@@ -1,2 +1,2 @@
 # Contacts-App
-Contacts app with OTP SMS sending functionality
+Contacts website with OTP SMS sending functionality using TWILIO service.
