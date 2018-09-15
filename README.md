@@ -1,2 +1,2 @@
 # Contacts-App
-Contacts app with SMS sending functionality
+Contacts app with OTP SMS sending functionality
