@@ -1,0 +1,18 @@
+<!-- 	template for displaying a contacts info	 -->
+
+
+<div class="list-group-item">
+    <h3 class="text-center">{{currentContact.name}}</h3>
+    <p>email: <a ng-href="{{currentContact.email}}">{{currentContact.email}}</a></p>
+    <p>phone: {{currentContact.phone}}</p>
+    <p>url: <a ng-href="{{currentContact.url}}">{{currentContact.url}}</a></p>
+    <p>Notes:</p>
+    <p class="well well-lg">{{currentContact.notes}}</p>
+
+    <a ng-href="#/compose/{{contacts.indexOf(currentContact)}}">
+        <button class="btn btn-default">
+          <span>Send Message</span>
+        </button>
+    </a>
+
+</div>

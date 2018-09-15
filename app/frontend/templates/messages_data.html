@@ -1,0 +1,12 @@
+<!--     messages list   	 -->
+<div class="col-xs-12 panel-body">
+    <h4>Messages history:</h4>
+    <input class="form-control" placeholder="Seach Your Contacts" type="text" ng-model="searchText">
+    <ul class="list-group" style="height: 50vh;overflow-y: auto;">
+        <li class="list-group-item" ng-repeat="message in messagesList| orderBy: '-dateSent' | filter: searchText ">
+            <p>Contact Name: <b>{{message.user_name}}</b></p>
+            <p>SMS time: {{message.dateSent}}</p>
+            <p>OTP message: {{message.body}}</p>
+        </li>
+    </ul>
+</div>

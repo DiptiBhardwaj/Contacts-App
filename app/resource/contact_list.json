@@ -1,0 +1,114 @@
+[
+  {
+    "id": 0,
+    "name": "Dipti Bhardwaj",
+    "email": "dipti.b24@gmail.com",
+    "phone": "+917678654100",
+    "url": "www.google.com",
+    "notes": "This is a twilio verified number."
+  },
+  {
+    "id": 1,
+    "name": "Kisan Network",
+    "email": "dummy@kisannetworks.com",
+    "phone": "+919971792703",
+    "url": "www.google.com",
+    "notes": "This number is not Twilio verified."
+  },
+  {
+    "id": 2,
+    "name": "Samwell Tarly",
+    "email": "starly@castleblack.com",
+    "phone": "+917340135122",
+    "url": "www.google.com",
+    "notes": "Loyal brother of the watch."
+  },
+  {
+    "id": 3,
+    "name": "Jon Snow",
+    "email": "jsnow@castleblack.com",
+    "phone": "+913383349111",
+    "url": "www.google.com",
+    "notes": "Knows nothing."
+  },
+  {
+    "id": 4,
+    "name": "Arya Stark",
+    "email": "waterdancer@winterfell.com",
+    "phone": "+918130375984",
+    "url": "www.google.com",
+    "notes": "Has a list of names."
+  },
+  {
+    "id": 5,
+    "name": "Jora Mormont",
+    "email": "khaleesifan100@gmail.com",
+    "phone": "+919302554869",
+    "url": "www.google.com",
+    "notes": "Lost in the friend-zone."
+  },
+  {
+    "id": 6,
+    "name": "Tyrion Lannister",
+    "email": "tyrion@lannister.com",
+    "phone": "+919817600004",
+    "url": "www.google.com",
+    "notes": "Currently drunk."
+  },
+  {
+    "id": 7,
+    "name": "Stannis Baratheon",
+    "email": "onetrueking@dragonstone.com",
+    "phone": "+910750548281",
+    "url": "www.google.com",
+    "notes": "Nobody expects the Stannish inquisition."
+  },
+  {
+    "id": 8,
+    "name": "Hodor",
+    "email": "hodor@hodor.com",
+    "phone": "+917590067135",
+    "url": "www.google.com",
+    "notes": "Hodor? Hodor... Hodor!"
+  },
+  {
+    "id": 9,
+    "name": "Margaery Tyrell",
+    "email": "mtyrell@highgarden.com",
+    "phone": "+919479172125",
+    "url": "www.google.com",
+    "notes": "Keeper of kings."
+  },
+  {
+    "id": 10,
+    "name": "Brienne of Tarth",
+    "email": "oathkeeper@gmail.com",
+    "phone": "+919013639226",
+    "url": "www.google.com",
+    "notes": "Do not cross her."
+  },
+  {
+    "id": 11,
+    "name": "Petyr Baelish",
+    "email": "petyr@baelishindustries.com",
+    "phone": "+919732750076",
+    "url": "www.google.com",
+    "notes": "Do not trust anyone."
+  },
+  {
+    "id": 12,
+    "name": "Ned Stark",
+    "email": "ned@winterfell.com",
+    "phone": "+918236445271",
+    "url": "www.google.com",
+    "notes": "Winter is coming."
+  },
+  {
+    "id": 13,
+    "name": "Theon Greyjoy",
+    "email": "tgreyjoy@winterfell.com",
+    "phone": "+918123274331",
+    "url": "www.google.com",
+    "notes": "Reluctant to pay iron price."
+  }
+]

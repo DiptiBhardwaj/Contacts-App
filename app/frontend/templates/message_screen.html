@@ -1,0 +1,22 @@
+<!--      template used for the send message screen         -->
+
+<div class="list-group-item">
+    <div class="text-center"
+         ng-class="{hidden : !sms_send}">
+        <div ng-if="sms_send.success" class="alert alert-success text-center">
+            {{sms_send.success}}
+        </div>
+        <div ng-if="sms_send.error" class="alert alert-danger text-center">
+            {{sms_send.error}}
+        </div>
+    </div>
+
+    <form ng-submit="send_sms(otp_message)">
+        <input class="form-control well well-lg" placeholder="OTP message" type="text" ng-model="otp_message" disabled
+               required>
+        <button class="btn btn-default" type="submit" name="submit">
+            <span>Send Message</span>
+        </button>
+    </form>
+</div>
+
