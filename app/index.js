@@ -74,7 +74,24 @@ app.use('/frontend/', function (req, res) {
 app.get('/', function (req, res) {
     res.sendFile('index.html', {root: __dirname}); // load the single view file (angular will handle the page changes on the front-end)
 });
-app.listen(8080, function () {
-    console.log('Server running at http://127.0.0.1:8080/');
+var port = process.env.PORT || 1337;
+
+app.listen(port, function () {
+    console.log('Server running at http://127.0.0.1:'+port+'/');
 });
+
+
+/*var http = require('http');
+
+var server = http.createServer(function(request, response) {
+
+    response.writeHead(200, {"Content-Type": "text/plain"});
+    response.end("Hello World!");
+
+});
+
+var port = process.env.PORT || 1337;
+server.listen(port);*/
+
+console.log("Server running at http://localhost:%d", port);
 
