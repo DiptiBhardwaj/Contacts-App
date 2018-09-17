@@ -74,7 +74,7 @@ app.use('/frontend/', function (req, res) {
 app.get('/', function (req, res) {
     res.sendFile('index.html', {root: __dirname}); // load the single view file (angular will handle the page changes on the front-end)
 });
-app.listen(3080, function () {
-    console.log('Server running at http://127.0.0.1:3080/');
+app.listen(8080, function () {
+    console.log('Server running at http://127.0.0.1:8080/');
 });
 
