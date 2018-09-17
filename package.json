@@ -1,0 +1,27 @@
+{
+  "name": "contacts-app",
+  "version": "1.0.0",
+  "description": "Contact App angular",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "twilio": "^3.19.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiptiBhardwaj/Contacts-App.git"
+  },
+  "author": "Dipti Bhardwaj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiptiBhardwaj/Contacts-App/issues"
+  },
+  "homepage": "https://github.com/DiptiBhardwaj/Contacts-App#readme"
+  "engines": {
+    "node": "8.9.0"
+  }
+}
